@@ -89,3 +89,49 @@ h3 {
 .close:hover {
   color: #7950f2;
 }
+
+.profession-select {
+  width: 600px;
+  background-color: #f7f7f7;
+  border-radius: 7px;
+  padding: 25px 100px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.profession-select ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 20px 0;
+}
+
+.profession-select li {
+  cursor: pointer;
+  background-color: #e7e7e7;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 7px;
+  transition: background-color 0.3s;
+}
+
+.profession-select li:hover {
+  background-color: #7950f2;
+  color: #fff;
+}
+
+.return-button {
+  border: none;
+  cursor: pointer;
+  padding: 10px 15px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: bold;
+  background-color: #7950f2;
+  color: #fff;
+  margin-bottom: 20px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.return-button:hover {
+  background-color: #6741d9;
+}
